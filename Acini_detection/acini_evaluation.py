@@ -2,7 +2,7 @@ from skimage.feature import peak_local_max
 import acini_model as acini_code
 
 # PATH to the model weights file
-ACINI_PATH = "...\\unet_gaussian.hdf5"
+ACINI_PATH = "...\\unet_acini.hdf5"
 
 #Import the model and load the weights
 model = acini_code.unet()
