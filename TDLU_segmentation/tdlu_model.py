@@ -10,7 +10,6 @@ from scipy import ndimage
 #Set tensorflow logging level
 tf.logging.set_verbosity(tf.logging.INFO)
 
-#%%
 #Define the CNN U-Net model
 def cnn_model_fn(features, labels, mode):
   """Model function for CNN."""
