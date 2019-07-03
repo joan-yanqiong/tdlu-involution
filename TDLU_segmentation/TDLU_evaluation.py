@@ -4,7 +4,7 @@ import cv2
 from skimage import morphology
 
 # PATH to the model weights file
-TDLU_PATH = "...\\unet_newcases_revised"
+TDLU_PATH = "...\\unet_TDLU"
 
 #Import the model and load the weights
 tdlu_detector = tf.estimator.Estimator(model_fn=tdlu_code.cnn_model_fn, model_dir=TDLU_PATH)
