@@ -2,7 +2,7 @@ import fat_model as fat_code
 import tensorflow as tf
 
 # PATH to the model weights file
-FAT_PATH = "...\\unet_fat_segmentation_moreit"
+FAT_PATH = "...\\unet_fat_segmentation"
 
 #Import the model and load the weights
 fat_detector = tf.estimator.Estimator(model_fn=fat_code.cnn_model_fn, model_dir=FAT_PATH)
